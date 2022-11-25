@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pop It | Kodland</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar__orange">
+      <div class="container-fluid">
+        <a class="nav__logo" href="#">НЕ_ПУПЫРКА.PY</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav__item">
+              <a class="nav__link" href="#">O HAC</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">СКИДКИ</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="row">
+          <div class="col col-sm-6 align-self-center">
+            <h1
+              class="hero__title"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              POP IT!
+            </h1>
+            <p
+              class="hero__desc"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              Лучшая антистрессовая игрушка — бесконечный <br />
+              прыщ-фильм!
+            </p>
+            <button
+              type="button"
+              class="btn btn__blue"
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              Купить
+            </button>
+          </div>
+          <div class="col col-sm-6 align-self-center">
+            <img
+              class="hero__img"
+              data-aos="fade-left"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+              src="/src/img_hero.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="row">
+          <h2
+            class="about__title"
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            что такое Pop it?
+          </h2>
+          <p
+            class="about__desc"
+            class="about__title"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
+            Pop it дословно переводится как «лопни это». Это детская игра,
+            процесс в которой можно сравнить с лопанием воздушно-пузырчатой
+            упаковочной плёнки. Но в отличии от пленки поп-иты можно давить с
+            характерными ощущениями и звуками «бесконечно»: десятки силиконовых
+            пузырей просто выдавливаются в другую сторону.
+          </p>
+        </div>
+      </section>
+
+      <!-- Choose Section -->
+      <section id="choose">
+        <div class="row">
+          <h3
+            class="choose__title"
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            Выбери свой
+          </h3>
+          <div class="choose__item">
+            <div class="row">
+              <div
+                class="col-12 col-md-4 col-sm-4"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <img class="choose__img" src="/src/img_square.png" alt="" />
+                <p class="item__title">Разноцветный квадратный</p>
+                <button class="btn btn__orange">Купить</button>
+              </div>
+              <div
+                class="col-12 col-md-4 col-sm-4"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <img class="choose__img" src="/src/img_amongus.png" alt="" />
+                <p class="item__title">Разноцветный квадратный</p>
+                <button class="btn btn__orange">Купить</button>
+              </div>
+              <div
+                class="col-12 col-md-4 col-sm-4"
+                data-aos="fade-left"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <img class="choose__img" src="/src/img_round.png" alt="" />
+                <p class="item__title">Разноцветный квадратный</p>
+                <button class="btn btn__orange">Купить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rules -->
+      <section id="rules">
+        <div class="row">
+          <div class="col-12 col-sm-6 align-self-center">
+            <h4
+              class="rules__title"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              Правила игры
+            </h4>
+            <p
+              class="rules__desc"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              Игроки ходят по очереди и нажимают на пупырки. Нужно обязательно
+              заканчивать ряд который начали. Нажимать можно максимум на 3
+              пупырки одновременно (обязательно должны быть рядом, нельзя
+              нажимать сразу несколько пупырок, если они не находятся впритык)
+              Задача сделать так, чтобы соперник сходил последним. Кто ходил
+              последним - тот проиграл!)
+            </p>
+          </div>
+          <div class="col-12 col-sm-6">
+            <img
+              class="rules__img"
+              src="/src/photo.jpg"
+              alt=""
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="d-flex justify-content-between">
+        <a class="footer__menu" href="#">НЕ_ПУПЫРКА.PY</a>
+        <a class="footer__menu" href="#">Способы оплаты</a>
+        <a class="footer__menu" href="#">Доставка</a>
+        <a class="footer__menu" href="#">Опт</a>
+        <a class="footer__menu" href="#">Контакты</a>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
